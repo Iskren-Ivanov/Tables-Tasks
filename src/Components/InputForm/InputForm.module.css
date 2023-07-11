@@ -1,0 +1,18 @@
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 20px; */
+}
+
+.formContainer button,
+input {
+    padding: 8px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+.formContainer button {
+    background-color: red;
+    color: white;
+}

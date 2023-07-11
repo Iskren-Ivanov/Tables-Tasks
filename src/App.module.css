@@ -1,0 +1,11 @@
+.appContainer { 
+  margin: 5px;
+}
+
+.appContainer_table {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin: 10px; */
+}
