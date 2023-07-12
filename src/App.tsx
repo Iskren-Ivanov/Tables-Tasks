@@ -11,12 +11,12 @@ const App = () => {
   const [columnName, setColumnName] = useState('');
 
   const changeHandler = (event: ChangeEvent<HTMLInputElement>) => {
-    // I would spend more time for better validation
-    const title = event?.target?.value?.trim();
-    title && setColumnName(title);
+    // I would spend more time for better validation  
+    const title = event?.target?.value; 
+    setColumnName(title);
   }
 
-  const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (event: MouseEvent<HTMLButtonElement>) => { 
     event.preventDefault();
     // I would spend more time for better validation
     if (!columnName) return;
